@@ -1,5 +1,6 @@
 # -*- coding:utf-8 -*-
-
+# 作者：李鹏飞
+# 个人博客：https://www.lookfor404.com/
 def genertate_initial_vector(hidden_states):
     """
     生成初始化概率向量Π，命名为initial_vector.txt，格式每一行为：状态,出现次数,概率
