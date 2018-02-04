@@ -1,6 +1,8 @@
 # -*- coding:utf-8 -*-
 # 作者：李鹏飞
 # 个人博客：https://www.lookfor404.com/
+# 代码说明：https://www.lookfor404.com/用隐马尔可夫模型hmm做命名实体识别-ner系列二/
+# github项目：https://github.com/lipengfei-558/hmm_ner_organization
 def genertate_initial_vector(hidden_states):
     """
     生成初始化概率向量Π，命名为initial_vector.txt，格式每一行为：状态,出现次数,概率
