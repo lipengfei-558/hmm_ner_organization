@@ -1,4 +1,9 @@
 # -*- coding:utf-8 -*-
+# -*- coding:utf-8 -*-
+# 作者：李鹏飞
+# 个人博客：https://www.lookfor404.com/
+# 代码说明：https://www.lookfor404.com/用隐马尔可夫模型hmm做命名实体识别-ner系列二/
+# github项目：https://github.com/lipengfei-558/hmm_ner_organization
 import jieba
 class OrgRecognize:
     def __init__(self, input_sentence):
