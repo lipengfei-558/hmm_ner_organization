@@ -63,7 +63,7 @@ def generate_emit_probability(initial_freq):
             tags_and_freq = split_line[1:]
             for index in range(0,len(tags_and_freq),2):
                 tmp_list =  tags_and_freq[index:index+2]  #list的第一个元素为隐状态标识，第二个元素为数量
-                result.append([tmp_list[0],observed_state,float(tags_and_freq[1])/initial_freq[tmp_list[0]]])
+                result.append([tmp_list[0],observed_state,float(tmp_list[1])/initial_freq[tmp_list[0]]])
 
     # 输出、写入文件
     with open("./data/emit_probability.txt",mode="w") as output_file:
